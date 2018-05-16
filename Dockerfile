@@ -9,9 +9,9 @@ WORKDIR /app
 RUN apt-get update -qq -y && \
     apt-get dist-upgrade -qq -y && \
     apt-get install -qq -y \
+        at \
         bzip2 \
         cron \
-        at \
         curl \
         libasound2 \
         libcurl4-gnutls-dev \
